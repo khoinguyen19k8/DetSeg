@@ -7,6 +7,15 @@ that utilizes an object detection model to localize lesions before segmenting th
 used in this project. Mask R-CNN is also implemented for comparison. The data is provided by Elisabeth-TweeSteden Ziekenhuis (ETZ) hospital in Tilburg, the Netherlands.
 This project is a part of the "Implementation of an optimized AI model for the detection and monitoring of osteolytic bone lesions" - a WeCare collaboration project between Tilburg University and ETZ hospital
 # Dataset
+The CT scans used in this thesis belong to Elizabeth-TweeSteden Hospital (ETZ) in Tilburg, Netherlands. The patients in each scan are 18 years or
+older. There are 96 full-body CT scans from 79 patients acquired by various scanners, each with a maximum of 20 lesions. The scans are DICOM
+images with a resolution of either 768 x 768 or 512 x 512 pixels, which are then combined to make 3D axial slices. 
+
+<figure>
+<img src="https://github.com/khoinguyen19k8/DetSeg/tree/main/figures/data/CTP10_001_Slices.png" alt="Trulli" style="width:100%">
+<figcaption align = "center"><b>Fig.1 - Axial, Coronal, and Sagittal scans from left to right, respectively. Lesions
+are annotated in red</b></figcaption>
+</figure>
 # Pre-processing and Data Transformation
 # Models
 ## DetSeg
