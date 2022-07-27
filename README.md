@@ -82,9 +82,9 @@ The first figure is Yolov5 speed benchmark, the second is 2D U-Net speed benchma
 
 # Demo
 
-https://github.com/khoinguyen19k8/DetSeg/blob/main/videos/detection_side_by_side.wav
+https://user-images.githubusercontent.com/20516586/181357606-ad61f11a-501f-4b84-9c57-1fefb575362d.mov
 
-https://github.com/khoinguyen19k8/DetSeg/blob/main/videos/segmentation_side_by_side.wav
+https://user-images.githubusercontent.com/20516586/181357638-b104bccc-f2c0-4024-a167-0f876142800b.mov
 
 
 # References
