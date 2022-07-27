@@ -11,16 +11,56 @@ The CT scans used in this thesis belong to Elizabeth-TweeSteden Hospital (ETZ) i
 older. There are 96 full-body CT scans from 79 patients acquired by various scanners, each with a maximum of 20 lesions. The scans are DICOM
 images with a resolution of either 768 x 768 or 512 x 512 pixels, which are then combined to make 3D axial slices. 
 
-![alt text](figures/data/CTP10_001_Slices.png)
+<p align="center">
+  <img src="https://github.com/khoinguyen19k8/DetSeg/tree/main/figures/data/CTP10_001_Slices.png" />
+</p>
+
+<p align="center">
+  <img src="https://github.com/khoinguyen19k8/DetSeg/tree/main/figures/data/big-lesions-and-ground-truth.png" />
+</p>
+
+<p align="center">
+  <img src="https://github.com/khoinguyen19k8/DetSeg/tree/main/figures/data/lesion_dist.png" />
+</p>
 # Pre-processing and Data Transformation
+
+<p align="center">
+  <img src="https://github.com/khoinguyen19k8/DetSeg/tree/main/figures/pipeline/data-augmentation-pipeline.jpg" />
+</p>
+
 # Models
 ## DetSeg
+
+<p align="center">
+  <img src="https://github.com/khoinguyen19k8/DetSeg/tree/main/figures/models/DSeg.png" />
+</p>
+
 ## Mask R-CNN
+
+<p align="center">
+  <img src="https://github.com/khoinguyen19k8/DetSeg/tree/main/figures/models/mask-rcnn-architecture.jpg" />
+</p>
 # Results
 ## Lesion detection
+<p align="center">
+  <img src="https://github.com/khoinguyen19k8/DetSeg/tree/main/figures/results/lesion_detection_results.jpg" />
+</p>
 ## Lesion segmentation
+<p align="center">
+  <img src="https://github.com/khoinguyen19k8/DetSeg/tree/main/figures/results/lesion_segmentation_results.jpg" />
+</p>
 ## Speed benchmark
+<p align="center">
+  <img src="https://github.com/khoinguyen19k8/DetSeg/tree/main/figures/results/benchmark.png" />
+</p>
 # References
+1. Nguyen, K.Q. (2022). DetSeg - Segmentation based on Osteolytic Lesions localisation in Multiple Myeloma patients.
+2. Moreau, N., Rousseau, C., Fourcade, C., Santini, G., Ferrer, L., Lacombe, M., . . . Normand, N. (2020). Deep learning approaches for bone and bone lesion segmentation on 18 FDG PET/CT imaging in the context of metastatic breast cancer*.
+3. Hoff, W. (2021). Automated segmentation of osteolytic lesions in whole-body CT imaging of multiple myeloma patients using deep learning models.
 # License
-# Contact
 
+# Contact
+Nguyen Quang Khoi
+
+k.q.nguyen@tilburguniversity.edu
+khoinguyen19k8@gmail.com
