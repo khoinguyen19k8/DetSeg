@@ -11,11 +11,7 @@ The CT scans used in this thesis belong to Elizabeth-TweeSteden Hospital (ETZ) i
 older. There are 96 full-body CT scans from 79 patients acquired by various scanners, each with a maximum of 20 lesions. The scans are DICOM
 images with a resolution of either 768 x 768 or 512 x 512 pixels, which are then combined to make 3D axial slices. 
 
-<figure>
-<img src="https://github.com/khoinguyen19k8/DetSeg/tree/main/figures/data/CTP10_001_Slices.png">
-<figcaption align = "center"><b>Fig.1 - Axial, Coronal, and Sagittal scans from left to right, respectively. Lesions
-are annotated in red</b></figcaption>
-</figure>
+![alt text](figures/data/CTP10_001_Slices.png)
 # Pre-processing and Data Transformation
 # Models
 ## DetSeg
