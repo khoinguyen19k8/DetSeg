@@ -15,36 +15,35 @@ images with a resolution of either 768 x 768 or 512 x 512 pixels, which are then
 <p align="center">
   <img src="https://github.com/khoinguyen19k8/DetSeg/blob/main/figures/data/CTP10_001_Slices.png">
 </p>
-<br>
+
 <p align="center">
   <img src="https://github.com/khoinguyen19k8/DetSeg/blob/main/figures/data/big-lesions-and-ground-truth.png">
 </p>
-<br>
+
 <p align="center">
   <img src="https://github.com/khoinguyen19k8/DetSeg/blob/main/figures/data/lesion_dist.png">
 </p>
 
 # Pre-processing and Data Transformation
-<br>
+
 <p align="center">
   <img src="https://github.com/khoinguyen19k8/DetSeg/blob/main/figures/pipeline/data-augmentation-pipeline.jpg">
 </p>
 
 # Models
+Yolov5 is trained on the original dataset, then 192x192 patches are cropped around detected lesions. U-Net is then trained on those cropped images.
 
 ## DetSeg
 <br>
 <p align="center">
   <img src="https://github.com/khoinguyen19k8/DetSeg/blob/main/figures/models/DSeg.png">
 </p>
-<br>
 
 ## Mask R-CNN
 <br>
 <p align="center">
   <img src="https://github.com/khoinguyen19k8/DetSeg/blob/main/figures/models/mask-rcnn-architecture.jpg">
 </p>
-<br>
 
 # Results
 
@@ -53,21 +52,37 @@ images with a resolution of either 768 x 768 or 512 x 512 pixels, which are then
 <p align="center">
   <img src="https://github.com/khoinguyen19k8/DetSeg/blob/main/figures/results/lesion_detection_results.jpg">
 </p>
-<br>
 
 ## Lesion segmentation
 <br>
 <p align="center">
   <img src="https://github.com/khoinguyen19k8/DetSeg/blob/main/figures/results/lesion_segmentation_results.jpg">
 </p>
-<br>
 
 ## Speed benchmark
-<br>
+The first figure is Yolov5 speed benchmark, the second is 2D U-Net speed benchmark.
+
 <p align="center">
   <img src="https://github.com/khoinguyen19k8/DetSeg/blob/main/figures/results/benchmark.png">
 </p>
-<br>
+
+<p align="center">
+  <img src="https://github.com/khoinguyen19k8/DetSeg/blob/main/figures/results/segmentation_benchmark.png">
+</p>
+
+# Visualization
+
+<p align="center">
+  <img src="https://github.com/khoinguyen19k8/DetSeg/blob/main/figures/results/yolov5_vis.png">
+</p>
+
+<p align="center">
+  <img src="https://github.com/khoinguyen19k8/DetSeg/blob/main/figures/results/preds_categorized_01.png">
+</p>
+
+# Demo
+![video_1](videos/detection_side_by_side.wav)
+
 
 # References
 1. Nguyen, K.Q. (2022). DetSeg - Segmentation based on Osteolytic Lesions localisation in Multiple Myeloma patients.
@@ -77,7 +92,7 @@ images with a resolution of either 768 x 768 or 512 x 512 pixels, which are then
 # License
 
 # Contact
-If you want to get access to the code please contact me by email
+More details of the project are detailed in "thesis_final_v7.pdf". If you want to get access to the code please contact me by email because there is a confidential policy where I developed the project.
 Nguyen Quang Khoi
 
 k.q.nguyen@tilburguniversity.edu
