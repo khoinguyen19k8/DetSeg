@@ -81,7 +81,10 @@ The first figure is Yolov5 speed benchmark, the second is 2D U-Net speed benchma
 </p>
 
 # Demo
-![video_1](videos/detection_side_by_side.wav)
+
+![video_1](videos/detection_side_by_side.mov)
+
+![video_2](videos/detection_side_by_side.mov)
 
 
 # References
