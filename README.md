@@ -13,21 +13,21 @@ older. There are 96 full-body CT scans from 79 patients acquired by various scan
 images with a resolution of either 768 x 768 or 512 x 512 pixels, which are then combined to make 3D axial slices. <br>
 
 <p align="center">
-  <img src="https://github.com/khoinguyen19k8/DetSeg/tree/main/figures/data/CTP10_001_Slices.png" />
+  <img src="https://github.com/khoinguyen19k8/DetSeg/tree/main/figures/data/CTP10_001_Slices.png">
 </p>
 
 <p align="center">
-  <img src="https://github.com/khoinguyen19k8/DetSeg/tree/main/figures/data/big-lesions-and-ground-truth.png" />
+  <img src="https://github.com/khoinguyen19k8/DetSeg/tree/main/figures/data/big-lesions-and-ground-truth.png">
 </p>
 
 <p align="center">
-  <img src="https://github.com/khoinguyen19k8/DetSeg/tree/main/figures/data/lesion_dist.png" />
+  <img src="https://github.com/khoinguyen19k8/DetSeg/tree/main/figures/data/lesion_dist.png">
 </p>
 
 # Pre-processing and Data Transformation
 
 <p align="center">
-  <img src="https://github.com/khoinguyen19k8/DetSeg/tree/main/figures/pipeline/data-augmentation-pipeline.jpg" />
+  <img src="https://github.com/khoinguyen19k8/DetSeg/tree/main/figures/pipeline/data-augmentation-pipeline.jpg">
 </p>
 
 # Models
@@ -35,29 +35,30 @@ images with a resolution of either 768 x 768 or 512 x 512 pixels, which are then
 ## DetSeg
 
 <p align="center">
-  <img src="https://github.com/khoinguyen19k8/DetSeg/tree/main/figures/models/DSeg.png" />
+  <img src="https://github.com/khoinguyen19k8/DetSeg/tree/main/figures/models/DSeg.png">
 </p>
 
 ## Mask R-CNN
 
 <p align="center">
-  <img src="https://github.com/khoinguyen19k8/DetSeg/tree/main/figures/models/mask-rcnn-architecture.jpg" />
+  <img src="https://github.com/khoinguyen19k8/DetSeg/tree/main/figures/models/mask-rcnn-architecture.jpg">
 </p>
+
 # Results
 
 ## Lesion detection
 <p align="center">
-  <img src="https://github.com/khoinguyen19k8/DetSeg/tree/main/figures/results/lesion_detection_results.jpg" />
+  <img src="https://github.com/khoinguyen19k8/DetSeg/tree/main/figures/results/lesion_detection_results.jpg">
 </p>
 
 ## Lesion segmentation
 <p align="center">
-  <img src="https://github.com/khoinguyen19k8/DetSeg/tree/main/figures/results/lesion_segmentation_results.jpg" />
+  <img src="https://github.com/khoinguyen19k8/DetSeg/tree/main/figures/results/lesion_segmentation_results.jpg">
 </p>
 
 ## Speed benchmark
 <p align="center">
-  <img src="https://github.com/khoinguyen19k8/DetSeg/tree/main/figures/results/benchmark.png" />
+  <img src="https://github.com/khoinguyen19k8/DetSeg/tree/main/figures/results/benchmark.png">
 </p>
 
 # References
