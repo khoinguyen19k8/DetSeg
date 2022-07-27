@@ -12,7 +12,7 @@ older. There are 96 full-body CT scans from 79 patients acquired by various scan
 images with a resolution of either 768 x 768 or 512 x 512 pixels, which are then combined to make 3D axial slices. 
 
 <figure>
-<img src="https://github.com/khoinguyen19k8/DetSeg/tree/main/figures/data/CTP10_001_Slices.png" alt="Trulli" style="width:100%">
+<img src="https://github.com/khoinguyen19k8/DetSeg/tree/main/figures/data/CTP10_001_Slices.png">
 <figcaption align = "center"><b>Fig.1 - Axial, Coronal, and Sagittal scans from left to right, respectively. Lesions
 are annotated in red</b></figcaption>
 </figure>
