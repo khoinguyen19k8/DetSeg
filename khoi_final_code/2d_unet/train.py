@@ -58,7 +58,7 @@ def do_train(args, config_dict):
         pass
     else:
         # Load Tensorflow Dataset for training/val and test set
-        train_ds, val_ds, test_ds = load_data_endToEnd(holdout, IMG_DIR, MASK_DIR)
+        train_ds, val_ds, test_ds = load_data(holdout, IMG_DIR, MASK_DIR)
 
         # Define the model and load pre-trained weights
         model = UNet(768, 768, 1, 16, 0.2)
