@@ -61,7 +61,7 @@ def do_train(args, config_dict):
         train_ds, val_ds, test_ds = load_data_endToEnd(holdout, IMG_DIR, MASK_DIR)
 
         # Define the model and load pre-trained weights
-        model = UNet(768, 768, 1, 4, 0.2)
+        model = UNet(768, 768, 1, 16, 0.2)
         # model.load_weights(PRETRAINED_WEIGHT)
 
         # Setting training configurations
@@ -72,11 +72,9 @@ def do_train(args, config_dict):
             scale_fn=lambda x: 1 / (2.0 ** (x - 1)),
             step_size=2 * steps_per_epoch,
         )
-        step_schedule = keras.optimizers.schedules.PiecewiseConstantDecay(boundaries = [steps_per_epoch * 20, steps_per_epoch * 50, steps_per_epoch * 70],
-        values = [0.01, 0.001, 0.0001, 0.001])
         loss_func = keras.losses.BinaryCrossentropy()
         # loss_func = focal_tversky_loss
-        optimizer = keras.optimizers.Adam(step_schedule)
+        optimizer = keras.optimizers.Adam(lr_schedule)
         checkpoint_cb = keras.callbacks.ModelCheckpoint(
             join(OUTPUT_DIR, "best_model_endToEnd.h5"),
             monitor="val_dice_coef",
