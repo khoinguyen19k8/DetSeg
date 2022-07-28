@@ -1,0 +1,9 @@
+holdout: 1
+BATCH_SIZE : 64
+EPOCHS : 150
+INIT_LR : 0.0001
+MAX_LR : 0.01
+IMG_DIR : /wecare/home/khoi/thesis/runs/yolov5/detect/holdout_4 
+MASK_DIR : /wecare/home/khoi/thesis/runs/yolov5/detect/holdout_4_true
+OUTPUT_DIR: runs/holdout_4
+PRETRAINED_WEIGHT: Weights_0.h5

@@ -1,0 +1,19 @@
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+
+path: /wecare/home/khoi/thesis/ct_processed_aug  # dataset root dir
+train: 
+  - images/fold_2_train.txt 
+  - images/fold_3_train.txt 
+  - images/fold_4_train.txt
+  - images/fold_5_train.txt 
+val:
+  - images/fold_2_val.txt 
+  - images/fold_3_val.txt 
+  - images/fold_4_val.txt
+  - images/fold_5_val.txt 
+test: 
+  - images/fold_1  
+
+# Classes
+nc: 1  # number of classes
+names: ['lesion']
