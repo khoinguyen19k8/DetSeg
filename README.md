@@ -95,7 +95,7 @@ https://user-images.githubusercontent.com/20516586/181357638-b104bccc-f2c0-4024-
 # License
 
 # Contact
-More details of the project are detailed in "thesis_final_v7.pdf". If you want to get access to the code please contact me by email because there is a confidential policy where I developed the project.
+Details of the project can be found in "thesis_final_v7.pdf".
 Nguyen Quang Khoi
 
 k.q.nguyen@tilburguniversity.edu
